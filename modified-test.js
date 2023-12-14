@@ -4,8 +4,8 @@ const driverPath = '"D:\\chromedriver.exe"';
 
 const driver = new Builder().forBrowser('chrome').build();
 
-driver.get('https://dp.reapit.in/lp8');
-
+driver.get('');  //add staging or prod url
+ 
 async function submitForm() {
     try {
         // Input name

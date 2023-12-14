@@ -9,7 +9,7 @@ const driverPath = '"D:\chromedriver.exe"';
 const driver = new Builder().forBrowser('chrome').build();
 
 // Navigate to the URL where your form is hosted
-driver.get('https://drinkprime.webflow.io/lp103');
+driver.get(''); //add staging or prod url
 
 // Function to handle form submission
 async function submitForm() {
